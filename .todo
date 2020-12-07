@@ -1,0 +1,4 @@
+
+- Integrar Jest (https://github.com/vercel/next.js/tree/canary/examples/with-jest)
+- Integrar SWR (https://swr.vercel.app/docs/with-nextjs)
+- Integrar tema com Chakra (?) (https://chakra-ui.com/, https://www.youtube.com/watch?v=6TEo2AxW-oQ&t=291s)

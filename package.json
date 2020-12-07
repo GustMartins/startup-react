@@ -8,11 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "9.5.2",
+    "autoprefixer": "^10.0.4",
+    "next": "^10.0.3",
     "next-images": "^1.4.1",
+    "postcss": "^8.1.14",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
     "@types/node": "^14.6.1",

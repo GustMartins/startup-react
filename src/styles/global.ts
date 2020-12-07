@@ -1,3 +1,5 @@
+import 'tailwindcss/tailwind.css'
+
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`

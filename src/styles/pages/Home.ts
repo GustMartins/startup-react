@@ -1,6 +1,22 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+export const Heading = styled.h1.attrs({
+  className: 'mt-10 text-2xl'
+})`
+  color: ${props => props.theme.colors.primary};
+`
+
+export const Paragraph = styled.p.attrs({
+  className: 'mt-10 text-2xl'
+})`
+  ${Heading}:hover & {
+    color: red;
+  }
+`
+
+export const Container = styled.div.attrs({
+  className: 'bg-blue-100'
+})`
   width: 100vw;
   height: 100vh;
 
@@ -8,16 +24,4 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  h1 {
-    font-size: 54px;
-    color: ${props => props.theme.colors.primary};
-    margin-top: 40px;
-  }
-
-  p {
-    margin-top: 24px;
-    font-size: 24px;
-    line-height: 32px;
-  }
 `

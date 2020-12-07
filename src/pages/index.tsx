@@ -2,8 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 
 import VerselLogo from '../assets/vercel.svg'
-
-import { Container } from '../styles/pages/Home'
+import { Container, Heading, Paragraph } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
   return (
@@ -14,8 +13,8 @@ const Home: React.FC = () => {
 
       <main>
         <VerselLogo />
-        <h1>ReactJS Structure</h1>
-        <p>A ReactJS + Next.js structure made by Rocketseat.</p>
+        <Heading>ReactJS Structure</Heading>
+        <Paragraph>A ReactJS + Next.js structure made by Rocketseat.</Paragraph>
       </main>
     </Container>
   )
